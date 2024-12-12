@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./css/logincss.css">
+</head>
+<body>
+    <div class="bckdiv">
+        <h1 id="dynamicText1" style="text-align:center"></h1><br>
+        <h1 id="dynamicText2"></h1>
+        <h2 id="dynamicText3"></h2>
+    </div>
+    <div class="login">
+        <h1>Login</h1>
+        <form onsubmit="return validate()" method="post" action="login.php">
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" >
+            <p id="emlerr"></p>
+
+            <label for="pwd">Password</label>
+            <input type="password" id="pwd" name="pwd" placeholder="Enter your password">
+            <p id="pwderr"></p>
+
+            <input type="submit" id="sub" name="sub" value="Login"><br>
+            <div class="links">
+                <a href="forgotpassword.php">Forgot Password?</a><br>
+                <label>Don't have an account?<label>
+                <a href="./signup.html">Sign up</a>
+            </div>
+
+        </form>
+    </div>
+        <script src="./js/login.js"></script>
+
+</body>
+</html>
