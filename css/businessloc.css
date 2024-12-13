@@ -1,0 +1,50 @@
+.title {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap; /* Cards wrap to the next line if space is insufficient */
+    justify-content: center; /* Centers cards horizontally */
+    gap: 20px; /* Space between cards */
+    padding: 20px;
+    margin-top: 130px;
+}
+
+.card {
+    width: 300px;
+    height: 500px;
+    padding: 20px;
+    background-color: aquamarine;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Depth effect */
+    overflow: hidden; /* Prevent overflow of content */
+    transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slightly enlarges the card */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* Enhances shadow on hover */
+}
+
+.content {
+    color: blueviolet;
+    text-align: center;
+}
+
+img {
+    height: 200px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.extinfo {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card:hover .extinfo {
+    display: block;
+}

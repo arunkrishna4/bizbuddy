@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    line-height: 1.6;
+}
+
+.bckdiv {
+    background-color: #333;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    padding:10px 70px 70px 70px;
+    box-sizing: border-box;
+    color: white;
+    text-align: left;
+}
+
+.bckdiv h1 {
+    font-size: 48px;
+    margin-top: 30px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.bckdiv h2 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.login {
+    position: relative;
+    margin-top: 110px;
+    left: 60%;
+    padding: 30px;
+    width: 400px;
+    background-color: burlywood;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.login h1 {
+   
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login label {
+    font-size: 1rem;
+    margin-bottom: 3px;
+    color: #333;
+    font-weight: 600;
+}
+
+.login input[type="email"],
+.login input[type="password"] {
+    margin-bottom: 0px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login input[type="email"]:focus,
+.login input[type="password"]:focus {
+    border-color: #007bff;
+}
+
+.login input[type="submit"] {
+    padding: 12px 15px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: 600;
+}
+
+.login input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+p{
+    color:red;
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 19px;
+}
+
+a:hover{
+    color: grey;
+}
